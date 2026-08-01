@@ -6,7 +6,7 @@ st.title("SuperKart Sales Prediction")
 # ---- IMPORTANT ----
 # Replace this with your actual Render backend URL once deployed, e.g.
 # "https://superkart-sales-backend.onrender.com/v1/predict"
-BACKEND_URL = "https://REPLACE-WITH-YOUR-RENDER-URL.onrender.com/v1/predict"
+BACKEND_URL = "https://superkart-sales.onrender.com/v1/predict"
 
 with st.sidebar:
     st.caption("Backend endpoint (override for testing)")
